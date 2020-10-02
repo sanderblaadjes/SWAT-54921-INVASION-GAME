@@ -56,7 +56,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 		$age = isset($age) ? "Age: $age<br><br>" : '';
 		$city = isset($city) ? "City: $city<br><br>" : '';
 		$position = isset($position) ? "Position: $position<br><br>" : '';
-		$salary = isset($salary) ? "Salary: $salary<br><br>" : '';
+		$salary = isset($salary) ? "Rounded Salary: round($salary)<br><br>" : '';
 		$start = isset($start) ? "Start: $start<br><br>" : '';
 		$website = isset($website) ? "Website: $website<br><br>" : '';
 		$experience = isset($experience) ? "Experience: $experience<br><br>" : '';
